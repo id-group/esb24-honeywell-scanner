@@ -1,34 +1,40 @@
 {
-  "name": "react-native-esb24-honeywell-scanner",
-  "title": "React Native Esb24 Honeywell Scanner",
-  "version": "1.0.4",
-  "description": "Module for honeywell scanner with enabled EAN13 digit check transmit property",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/id-group/esb24-honeywell-scanner.git",
-    "baseUrl": "https://github.com/id-group/esb24-honeywell-scanner.git"
-  },
-  "keywords": [
-    "react-native",
-    "honeywell"
-  ],
-  "author": {
-    "name": "Andrey Kazantsev",
-    "email": "id-group@yandex.ru"
-  },
-  "license": "MIT",
-  "licenseFilename": "LICENSE",
-  "readmeFilename": "README.md",
-  "peerDependencies": {
-    "react": "^16.12.0",
-    "react-native": "^0.61.5"
-  },
-  "devDependencies": {
-    "react": "^16.12.0",
-    "react-native": "^0.61.5"
-  }
+	"name": "react-native-honeywell-scanner-v2",
+	"title": "React Native Honeywell Scanner-v2",
+	"version": "1.1.6",
+	"description": "Bridge to use the Honeywell scanner",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AMI3GOLtd/react-native-honeywell-scanner.git",
+		"baseUrl": "https://github.com/AMI3GOLtd/react-native-honeywell-scanner.git"
+	},
+	"keywords": [
+		"react-native",
+		"honeywell"
+	],
+	"author": "AMI3GO Ltd <enquiry@ami3go.com>",
+	"contributors": [
+		"AMI3GO Ltd <enquiry@ami3go.com> (https://ami3go.com)"
+	],
+	"bugs": {
+		"url": "https://github.com/AMI3GOLtd/react-native-honeywell-scanner/issues"
+	},
+	"homepage": "https://github.com/AMI3GOLtd/react-native-honeywell-scanner#readme",
+	"license": "MIT",
+	"licenseFilename": "LICENSE",
+	"readmeFilename": "README.md",
+	"peerDependencies": {
+		"react": "18.*",
+		"react-native": "0.*"
+	},
+	"devDependencies": {
+		"react": "18.*",
+		"react-native": "0.*"
+	}
 }
